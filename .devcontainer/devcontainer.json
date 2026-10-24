@@ -1,0 +1,15 @@
+{
+  "name": "Filament Demo",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "features": {
+    "ghcr.io/devcontainers/features/node:1": {
+      "version": "lts"
+    }
+  },
+  "containerEnv": {
+    "XDEBUG_MODE": "off"
+  },
+  "forwardPorts": [8000, 5173]
+}
